@@ -1,0 +1,16 @@
+
+<h1>Im a dog and i like licking faces</h1>
+
+<a routerLink="/dogs?breed=Pug">Pug</a>
+<a routerLink="/dogs?breed=GermanSherppard">German Sheppard</a>
+
+<a routerLink="/dogs?breed=GoldenRetriever">Golden Retriever</a>
+
+<h2>
+    {{breed}}
+
+</h2>
+
+<div *ngIf="breed == 'GoldenRetriever'">
+   <img src="" alt="">
+</div>
